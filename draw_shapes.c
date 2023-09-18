@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include "draw.h"
 
@@ -26,3 +27,8 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+//Prints an Arrow Using Square with Triangle on top
+void print_arrow(){
+  print_triangle(5,7);
+  print_square(9,7);
+}
